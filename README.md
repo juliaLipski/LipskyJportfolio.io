@@ -1,1 +1,1 @@
-# LipskyJportfolio.io
+# juliaLipsky.github.io
