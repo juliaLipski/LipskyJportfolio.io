@@ -1,1 +1,0 @@
-# juliaLipsky.github.io
