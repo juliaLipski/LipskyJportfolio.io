@@ -1,5 +1,8 @@
 jQuery(document).ready(function( $ ) {
-
+  $(window).load(function() {
+    $("#preloader").delay(100).fadeOut("slow");
+    $("#load").delay(100).fadeOut("slow");
+  });
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
