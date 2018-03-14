@@ -4,8 +4,8 @@
 # General
 --------------------------------------------------------------*/
 :root {
-  --main-color-1: #c078aa;
-  --main-bg-color: rgba(13, 21, 49, 0.548);
+  --main-color-1: #a39a4b;
+  --main-bg-color: rgba(87, 85, 86, 0.829);
   --main-color-2: rgba(102, 100, 101, 0.637);
 }
 body {
@@ -85,25 +85,25 @@ h1, h2, h3, h4, h5, h6 {
 
 @keyframes shadowSpin{
 0%{
-  box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+  box-shadow: 10px -10px rgb(51, 73, 73), -10px 10px rgb(145, 134, 69);
 }
 25%{
-  box-shadow: 10px 10px #39CCCC, -10px -10px #FFDC00;
+  box-shadow: 10px 10px rgb(51, 73, 73), -10px -10px rgb(145, 134, 69);
 }
 50%{
-  box-shadow: -10px 10px #39CCCC, 10px -10px #FFDC00;
+  box-shadow: -10px 10px rgb(51, 73, 73), 10px -10px rgb(145, 134, 69);
 }
 75%{
-  box-shadow: -10px -10px #39CCCC, 10px 10px #FFDC00;
+  box-shadow: -10px -10px rgb(51, 73, 73), 10px 10px rgb(145, 134, 69);
 }
 100%{
-  box-shadow: 10px -10px #39CCCC, -10px 10px #FFDC00;
+  box-shadow: 10px -10px rgb(51, 73, 73), -10px 10px rgb(145, 134, 69);
 }
 }
 
 #load {
 z-index: 9999;
-background-color: #FF4136;
+background-color: rgb(51, 49, 49);
 opacity: 0.75;
 width: 10px;
 height: 10px;
@@ -113,8 +113,8 @@ margin: -5px auto 0 auto;
 left: 0;
 right: 0;
 border-radius: 0px;
-border: 5px solid #FF4136;
-box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
+border: 5px solid rgb(59, 58, 58);
+box-shadow: 10px 0px rgb(224, 224, 221), 10px 0px rgb(59, 73, 75);
 animation: shadowSpin 1s ease-in-out infinite;
 }
 
@@ -159,7 +159,7 @@ margin-top: 10px;
   margin-top: 0px;
   left: 0px;
   top: 0px;
-  background-color: var(--main-color-2);
+  background-color: rgba(0, 2, 3, 0.904);
 }
 .section-header1{
   padding: 15px;
@@ -200,7 +200,7 @@ margin-top: 10px;
 .back-to-top {
   position: fixed;
   display: none;
-  background: #c078aa;
+  background: var(--main-color-1);
   color: #fff;
   display: inline-block;
   width: 44px;
@@ -1141,7 +1141,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #a4139d;
+  background: var(--main-color-1);
 }
 
 #footer .copyright {
